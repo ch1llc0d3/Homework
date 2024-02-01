@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Mi Página de Presentación</title>
+    </head>
+    <body>
+    
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Me gusta la tecnología, aprender y superar mis limites siempre que se pueda.
+                Soy una persona muy curiosa y persistente, dispuesta a enfrentar cualquier desafio
+                desde una perspectiva exploradora y ludica. 
+                En estos momentos estoy emprendiendo y a la vez estudiando, para poder estar empoderada
+                gracias a la mis-tecnologias. 
+                Me gusta crear, y me encantaria poder crear aplicaciones web y mobiles. 
+                En estos momentos me interesa bastante el back end y Dev Ops. 
+            </p>
+        </section>
+    
+        <section id="mis-tecnologias">
+            <h2>Mis Tecnologías Favoritas</h2>
+            <div class="tarjeta">
+                <!-- Logo y detalles de la primera tecnología -->
+            </div>
+            <div class="tarjeta">
+                <!-- Logo y detalles de la segunda tecnología -->
+            </div>
+            <!-- Agrega más tarjetas según sea necesario -->
+        </section>
+    
+        <section id="mis-actividades">
+            <h2>Mis Actividades Favoritas</h2>
+            <form id="nueva-actividad">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+                <label for="descripcion">Descripción:</label>
+                <input type="text" id="descripcion" name="descripcion" required>
+                <label for="url-imagen">URL de la Imagen:</label>
+                <input type="url" id="url-imagen" name="url-imagen" required>
+                <button type="button" onclick="agregarActividad()">Agregar Actividad</button>
+            </form>
+    
+            <div id="actividades-container">
+                <!-- Aquí se mostrarán las tarjetas con las actividades -->
+            </div>
+        </section>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>

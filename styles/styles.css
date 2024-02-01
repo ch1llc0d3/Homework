@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eaf7ed; /* Verde claro para el fondo */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #008000; /* Verde oscuro para los títulos */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+    color: #4a4a4a; /* Verde oscuro para el texto */
+}
+
+.tarjeta {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #c1e7c1; /* Verde suave para las tarjetas */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #008000; /* Verde oscuro para las etiquetas */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #6da76d; /* Verde medio para los bordes de los inputs */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50; /* Verde brillante para el botón */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Cambio de tono al pasar el mouse */
+}
+
+#actividades-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Puedes ajustar los colores y los matices según tu preferencia */
